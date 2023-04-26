@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Javanese:wght@400;500;600;700&display=swap');
+
+body{
+	font-family: 'Noto Sans Javanese', sans-serif;
+	margin: 0;
+	background-color: #FCFAFA;
+}
+
+.logo{
+	margin: 0 auto;
+	display:block;
+}
+
+
+/* Styled links */
+a{
+	text-decoration: none;
+}
+a:link{
+	color: #4D193D;
+}
+a:visited{
+	color: #4D193D;
+}
+a:hover{
+	color: #BC9FBB;
+}
+a:active{
+	color: #FCFAFA;
+}
+
+
+/* Navigation bar */
+
+nav ul{
+  list-style-type:none;
+  text-align: center;
+  padding-top: 10px;
+  padding-right: 20px;
+  
+  background-color: #F5E0EE;
+}
+nav li{
+  display: inline;
+}
+nav a{
+  text-decoration:none;
+  padding-right:5px;
+  padding-left:5px;
+}
+nav a:link{
+  color:#4D193D;
+}
+nav a:visited{
+  color:#4D193D;
+}
+nav a:hover{
+  color:#BC9FBB;
+}
+nav a:active{
+  color:#FCFAFA;
+}
+
+main{
+	max-width: 1200px;
+	margin: 20px auto;
+	
+}
+.main-para{
+	font-size: 20px;
+}
+.sitting{
+	border: 2px solid #60435F;
+	border-radius: 5px;
+	box-shadow: 5px 5px #F0D1E6;
+	
+}
+.navi-row-h2{
+	text-align:center;
+	color:#60435F;
+	letter-spacing: 3px;
+	font-size: 30px;
+	text-shadow: 2px 2px #F0D1E6;
+}
+.fa-navi-row{
+	margin-top: 10px;
+	text-align:center;
+	font-size: 55px;
+	display: block;
+	
+}
+
+
+.nav-button {
+  background-color: #F0D1E6; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 20px;
+  border-radius: 50px;
+  
+}
+
+
+
+.fa-square-github{
+	font-size:25px;
+}
+.fa-linkedin{
+	font-size:25px;
+}
+.fa-envelope{
+	font-size:25px;
+}
+
+.header-image{ 
+	background-image:url(images/clouds.jpg);
+	height: 300px;
+	background-size:cover;
+	background-position: center top;
+	background-repeat:no-repeat;
+	border: 2px solid #60435F;
+	border-radius: 5px;
+	box-shadow: 5px 5px #F0D1E6;
+	margin-bottom: 30px;
+}
+
+
+.footer1000{
+	margin-top: 100px;
+	padding-top: 10px;
+	text-align: center;
+	background-color:#F5E0EE;
+}
+
+#footer-left-paragraph{
+	text-align: center;
+}
+#footer-links{
+	text-align: left;
+}
+ 
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px){
+	h1{
+		font-size: 2em;
+	}
+}
+
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px){
+	h1{
+		font-size: 1.5em;
+	}
+}
+
+
+
+
+
+.resume-main{
+	max-width: 800px;
+	margin: 20px auto;
+	background-color: white;
+	box-shadow: 10px 5px 5px #F0D1E6;
+	border: 2px solid #60435F;
+	padding: 10px 10px 10px;
+}
+
+p.headHobby{
+	font-weight: bold;
+	text-align: left;
+	padding-top: 25px;
+	font-size: 25px;
+}
+
+
+
+.hr-topResume{
+	border-top: 2px solid #60435F;
+}
+
+.hr-botResume{
+	border-top: 2px solid #60435F;
+}
+.resume-pictureJohn{
+	max-width: 300px;
+	max-height: 300px;
+	float: right;
+	border: 2px solid #60435F;
+	border-radius: 20px;
+	box-shadow: 5px 5px #F0D1E6;
+	margin-bottom:20px;
+	
+}
+
+.headerResume{
+	text-align: center;
+	
+}
+
+ul.resumeCell{
+	list-style-type:none;
+}
+
+ul.resumeCell li{
+	
+	display: inline-block;
+	min-width: 12rem;
+	text-align: center;
+	
+}
+
+.port-para{
+	font-size:22px;
+}
+
+.multi-row{
+	margin-bottom:50px;
+	border-bottom: 2px solid #60435F;
+	padding:20px;
+}
+.multi-port{
+	border: 2px solid #60435F;
+	border-radius: 10px;
+	box-shadow: 5px 5px #F0D1E6;
+}
+
+
+.htmltable-row{
+	margin-bottom:50px;
+	border-bottom: 2px solid #60435F;
+	padding:20px
+}
+.htmltable-port{
+	border: 2px solid #60435F;
+	border-radius: 10px;
+	box-shadow: 5px 5px #F0D1E6;
+}
+
+.htmlform-row{
+	margin-bottom:50px;
+	border-bottom: 2px solid #60435F;
+	padding:20px
+}
+.htmlform-port{
+	border: 2px solid #60435F;
+	border-radius: 10px;
+	box-shadow: 5px 5px #F0D1E6;
+}
+
+
+
+/* code for javascript game */
+canvas {
+    background-color: #f1f1f1;
+	display:block;
+	background-image:url(images/field.jpg);
+	border: 2px solid #60435F;
+	border-radius: 10px;
+	box-shadow: 5px 5px #F0D1E6;
+	margin-bottom:20px;
+}
+.myButton{
+	color: #60435F;
+	margin-bottom:240px;
+	border-radius: 5px;
+	box-shadow: 2px 2px black;
+	font-size:25px;
+	background-color:#F0D1E6;
+	padding-top:10px;
+}
+	
+/* JavaScript Game changes for mobile */
+.mobile{
+	display:none;
+}
+@media only screen and (max-width: 768px){
+	.desktop{
+		display:none;
+	}
+	.mobile{
+		display: block;
+		touch-action: manipulation;
+	}
+}
+
+
+
