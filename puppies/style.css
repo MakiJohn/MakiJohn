@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Javanese:wght@400;500;600;700&display=swap');
+
+body{
+	font-family: 'Noto Sans Javanese', sans-serif;
+	margin: 0;
+	background-color: #e7f8ff;
+}
+
+h1{
+	text-align: center;
+	padding-top: 10px;
+}
+
+nav{
+	background-color: #FFEEE7;
+	border-top: 2px solid #4d4d4d;
+	border-bottom: 2px solid #4d4d4d;
+
+}
+
+
+/* Styled links */
+a{
+	text-decoration: none;
+}
+a:link{
+	color: purple;
+}
+a:visited{
+	color: purple;
+}
+a:hover{
+	color: blue;
+}
+a:active{
+	color: black;
+}
+
+
+/* Vertical Navigation bar */
+
+nav ul{
+  list-style-type:none;
+  text-align: center;
+  padding-top: 10px;
+}
+nav li{
+  display: inline;
+}
+nav a{
+  text-decoration:none;
+  padding-right:10px;
+  
+}
+nav a:link{
+  color:purple;
+}
+nav a:visited{
+  color:purple;
+}
+nav a:hover{
+  color:#2ED171;
+}
+nav a:active{
+  color:black;
+}
+
+main{
+	max-width: 1200px;
+	margin: 20px auto;
+	
+}
+
+.home-hero{
+	background-image: url(images/header.jpg);
+	height: 475px;
+	background-size: cover;
+	background-position: center;
+	color: #15C80D;
+	font-weight: bold;
+	padding: 10px 10px 10px 30px;
+}
+
+
+blockquote{
+	padding-top: 10px;
+	color: #2ED171;
+	font-weight: bold;
+}
+
+
+img{
+	display: block;
+	margin: 0 auto;
+	border-radius: 150px;
+}
+
+.footerMain{
+	text-align: center;
+	border-top: 1px solid #4d4d4d;
+	padding: 10px;
+	background-color: #FFEEE7;
+}
+ 
+.dogRow{
+	text-align: center;
+	color: #D12E8E;
+	font-weight: bold;
+	font-size: 2em;
+}
+ 
+.fa{
+	font-size: 2em;
+}
+
+.emailFooter{
+	color:#D12E8E;
+}
+.telephoneFooter{
+	color:#2ED171;
+}
+.commentFooter{
+	color:#D12E8E;
+}
+.moneyFooter{
+	color:#2ED171;
+}
+ 
+ 
+ 
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px){
+	h1{
+		font-size: 2em;
+	}
+}
+
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px){
+	h1{
+		font-size: 1.5em;
+	}
+}

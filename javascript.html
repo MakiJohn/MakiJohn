@@ -42,12 +42,12 @@
 		   <!-- This is the HTMLcode. It will be in the <main> section of your website --> 
 		   <div id="game" ></div>
 		   <div class="game-controls desktop">
-				<button class="myButton" onmousedown="accelerate(-0.2)" onmouseup="accelerate(0.05)">FLAP WINGS</button>
+				<button class="myButton" onmousedown="accelerate(-0.2)" onmouseup="accelerate(0.05)">JUMP</button>
 				<a href="" ><button class="myButton">PLAY AGAIN</button></a>
 			</div>
 					
 			<div class="game-controls mobile">
-			<button class="myButton" ontouchstart="accelerate(-0.2)" ontouchend="accelerate(0.05)">FLAP WINGS</button>
+			<button class="myButton" ontouchstart="accelerate(-0.2)" ontouchend="accelerate(0.05)">JUMP</button>
 			<a href="" ><button class="myButton">PLAY AGAIN</button></a>
 			</div>
 
@@ -216,8 +216,9 @@
 
 	</main>
 	
-	<footer class="footerMain">
+	<footer id="footer">
 		<div class="container-fluid">
+			<!-- left side -->
 			<div class="row footer1000">
 				<div class="col-sm-6" id="footer-left-paragraph">
 				<p>This is a website made by John Maki as a portfolio that includes a Home page, Resume, Portfolio, and Javascript game.</p>
@@ -228,9 +229,8 @@
 					<a href="https://pixabay.com/" target="_blank">pixabay.com,</a>
 					 and personal images.
 				</p>
-				
-				<!-- first -->
 				</div>
+				<!-- right side -->
 				<div class="col-sm-6" id="footer-links">
 					<h2>Let's connect!</h2>
 					<i class="fa-brands fa-square-github"></i>
@@ -243,6 +243,9 @@
 					<a href="mailto:makijohn023@gmail.com" target="_blank">Email</a>
 				</div>
 			</div>
+		</div>
+		<div class="footer-bottom">
+			<small>&copy; John Maki. All rights reserved.</small>
 		</div>
 	</footer>
 	

@@ -2,7 +2,7 @@
 
 body{
 	font-family: 'Noto Sans Javanese', sans-serif;
-	margin: 0;
+	
 	background-color: #FCFAFA;
 }
 
@@ -83,7 +83,7 @@ main{
 	text-shadow: 2px 2px #F0D1E6;
 }
 .fa-navi-row{
-	margin-top: 10px;
+	margin-top: 25px;
 	text-align:center;
 	font-size: 55px;
 	display: block;
@@ -142,6 +142,14 @@ main{
 #footer-links{
 	text-align: left;
 }
+
+.footer-bottom{
+	text-align:center;
+	background-color:#60435F;
+	color:#FCFAFA;
+}
+
+
  
 /* CSS Adjustments for Tablets */
 @media only screen and (max-width: 1024px){
@@ -218,6 +226,17 @@ ul.resumeCell li{
 	font-size:22px;
 }
 
+
+.portfolio-links{
+	border: 2px solid #F0D1E6;
+	padding: 3px;
+	border-radius: 10px;
+	font-size:25px;
+}
+
+
+
+
 .multi-row{
 	margin-bottom:50px;
 	border-bottom: 2px solid #60435F;
@@ -266,12 +285,13 @@ canvas {
 }
 .myButton{
 	color: #60435F;
-	margin-bottom:240px;
+	margin-bottom:360px;
 	border-radius: 5px;
 	box-shadow: 2px 2px black;
 	font-size:25px;
 	background-color:#F0D1E6;
 	padding-top:10px;
+	margin-right:20px;
 }
 	
 /* JavaScript Game changes for mobile */

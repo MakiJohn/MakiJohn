@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+body{
+	font-family: 'Crimson Text', serif;
+	margin: 0;
+	background-color:#f1b24b;
+}
+
+h1{
+	text-align: center;
+	background-color:#f1b24b;
+	color:#36846b;
+	letter-spacing: 5px;
+	font-weight: bold;
+	font-size: 75px;
+	text-shadow: 1px 1px #ff0000;
+}
+
+nav{
+	background-color: #d68438;
+	border-top: 2px solid #36846b;
+	border-bottom: 2px solid #36846b;
+	font-size: 25px;
+	padding-top: 10px;
+	font-weight: 700;
+	letter-spacing:2px;
+	text-shadow: 1px 1px #f1b24b;
+}
+
+
+/* Styled links */
+a{
+	text-decoration: none;
+}
+a:link{
+	color: #4bb39a;
+}
+a:visited{
+	color: #4bb39a;
+}
+a:hover{
+	color: #36846b;
+}
+a:active{
+	color: #f1b24b;
+}
+
+
+/* Vertical Navigation bar */
+
+nav ul{
+  list-style-type:none;
+  text-align: center;
+}
+nav li{
+  display: inline;
+}
+nav a{
+  text-decoration:none;
+  padding-right:10px;
+}
+nav a:link{
+  color:#4bb39a;
+}
+nav a:visited{
+  color:#4bb39a;
+}
+nav a:hover{
+  color:#36846b;
+}
+nav a:active{
+  color:#f1b24b;
+}
+
+main{
+	max-width: 1200px;
+	margin: 20px auto;
+	text-align: center;
+}
+
+
+
+.header-image{
+	max-width: 100%;
+	margin-bottom: 25px;
+	display: block;
+	border: 2px solid #36846b;
+	border-radius: 5px;
+	box-shadow: 5px 5px #d68438;
+	
+}
+
+#paw{
+	color:#4bb39a;
+	font-size: 8em;
+}
+
+
+.footerMain{
+	text-align:center;
+	border-top: 2px solid #36846b;
+	padding: 10px;
+	background-color: #d68438;
+}
+
+
+#footer-links{
+	font-size:18px;
+	text-align:left;
+	text-shadow: 1px 1px #f1b24b;
+}
+
+#email{
+	font-size:18px;
+	text-align:left;
+	text-shadow: 1px 1px #f1b24b;
+}
+
+
+#pixabay-paragraph{
+	margin-bottom:1em;
+	font-size:  25px;
+	text-shadow: 1px 1px #d68438;
+}
+ 
+ 
+.gallery .preview{
+    width:100%;
+    height:auto;
+	border-radius: 5px;
+}
+
+.gallery .gallery-thumbnails img {
+    width:100px;
+    height:75px;
+    margin: 25px 10px 10px 0;
+	border: 1px solid #36846b;
+	border-radius: 5px;
+	box-shadow: 5px 5px #d68438;
+	
+}
+
+.gallery .gallery-thumbnails img:hover {
+    opacity: .8;
+    cursor: pointer;
+}
+
+.gallery .preview img#preview {
+    border-radius: 5px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto !important;
+    display: block !important;
+	border: 2px solid #36846b;
+	box-shadow: 5px 5px #d68438;
+}
+
+ 
+ 
+ 
+ 
+ 
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px){
+	h1{
+		font-size: 2em;
+	}
+}
+
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px){
+	h1{
+		font-size: 1.5em;
+	}
+}
